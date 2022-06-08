@@ -47,6 +47,5 @@ int main(void)
 	printf("NOT : %08X\n", -0x9);
 	printf("<< : %08X\n", 0x9 << 0xA);
 	printf(">> : %08X\n", 0x9 >> 0xA);
-
 	return 0;
 }
