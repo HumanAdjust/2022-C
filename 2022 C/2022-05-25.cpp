@@ -267,5 +267,68 @@ int main(void) {
 	}
 	printf("요금은 %d입니다.\n", fee);*/
 
+	/*double divisor, divident, sum;
+	int loop_count;
+
+	divisor = 1.0;
+	divident = 4.0;
+	sum = 0.0;
+	printf("반복횟수: ");
+	scanf("%d", &loop_count);
+
+	while (loop_count > 0) {
+		sum = sum + divident / divisor;
+		divident = -1.0 * divident;
+		divisor = divisor + 2;
+		loop_count--;
+	}
+
+	printf("Pi = %f", sum);*/
+
+	/*int counter, i;
+	printf("카운터의 초기값을 입력하시오: ");
+	scanf("%d", &counter);
+	for (i = counter; i > 1; i--) {
+		printf("%d", i);
+	}
+	printf("\n\a");*/
+
+	/*int i, sum;
+	i = 1;
+	sum = 0;
+	while (i <= 100)
+	{
+		if ((i % 3) == 0) {
+			sum += i;
+		}
+		i++;
+	}
+	printf("1부터 100 사이의 모든 3의 배수의 합은 %d입니다. \n", sum);*/
+
+	/*int x;
+
+	printf("정수를 입력하시오: ");
+	scanf("%d", &x);
+
+	printf("약수: ");
+	for(int i=1; i <= x; i++) {
+		if(x % i == 0) {
+			printf("%d ", i);
+		}
+	}
+	printf("\n");*/
+
+	/*int y, x;
+	for (y = 0; y < 7; y++) { 
+		for (x = 0; x < (6 - y); x++) {
+			printf(" ");
+		}
+		for (x = 6-y; x < 7; x++) {
+			printf("*");
+		}
+		printf("\n");
+	}*/
+
+
 	return 0;
-}
+}   
